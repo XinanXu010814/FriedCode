@@ -1,0 +1,31 @@
+{
+  "name": "drpcp",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "cd client && npm test",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.doc.ic.ac.uk:g205001042/drpcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "elo-rating": "^1.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "react-particles-js": "^3.4.1",
+    "simple-matchmaker": "^1.0.2",
+    "socket.io": "^4.1.2"
+  }
+}
